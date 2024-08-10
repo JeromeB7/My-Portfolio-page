@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("7-03GYoQMya1XIvW3"); // Replace with your User ID
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo"> <span>Jerome</span> B</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Hi, It's <span>Jerome</span></h1>
+            <h3 class="text-animation">I'm a <span>Aspiring Software Engineer</span></h3>
+            <p>Computer Science Student <span>||</span> NITian <span>||</span> National Chess Player <br> <span>I want to do everything for the glory of God!!</span></p>
+
+            <div class="social-icons">
+                <a href="https://github.com/JeromeB7" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/thankful-lamb/" target="_blank">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+                <a href="https://x.com/ThankfulLamb" target="_blank">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=3434jerome77@gmail.com&tf=cm" target="_blank">
+                    <i class='bx bxl-gmail' ></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn"  onclick="">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="pic.png" alt="">
+        </div>
+
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="pic.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I am 3rd year computer science student with CGPA: 9.0, studying in National Institute of Technology, Puducherry.
+                I have learnt and am leaning DSA using C++. I am quite good with Object oriented Programming languages such as C++, Java, Python and JavaScript.
+                I am also studying Quantum computing and trying to use its power and the power of AI and ML to solve the problem of Protein folding.
+                I like to explore various feilds of Computing and love travelling. 
+                I am quite good at Chess and have got the privelage to play for Team Puducherry in the 65th SGFI Nationals Tournament. Thus, making me good at problem solving, decision making and being a team player.</p>
+            <a href="#" class="btn">Explore more</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <h4>MOVALA AI (Miraculously Operating Virtual Assistant Like Alexa)</h4>
+                <div class="image-div">
+                    <img src="MOVALA AI.png" alt="">
+                </div>
+                <p>This Python-based AI assistant is inspired by Tony Stark's J.A.R.V.I.S. from Iron Man. It is designed to interact with users in a conversational manner, open specified applications, play songs, and browse websites on command. The assistant utilizes the Gemini API to respond to various prompts, with all interactions being stored locally for future reference. The project showcases an integration of Python programming with the Gemini API to create a multifunctional and interactive tool, mirroring the capabilities of its cinematic counterpart.<br>
+                <b>Github link: </b><a href="https://github.com/JeromeB7/M.O.V.A.L.A-AI" target="_blank">MOVALA AI</a></p>
+            </div>
+            <div class="project-box">
+                <h4>CRYPTOCURRENCY</h4>
+                <div class="image-div">
+                    <img src="Cryptocurrency wallet.png" alt="">
+                </div>
+                <p>A blockchain platform from scratch, featuring a prototype cryptocurrency with smart contract functionality and utilizing a Proof-of-Stake consensus mechanism. Built a cryptocurrency on top of this platform, accompanied by a wallet for secure transactions. The project was fully implemented in Python, with a user-friendly GUI designed using PyQt5.<br>
+                <b>Project link: </b><a href="https://drive.google.com/drive/u/0/folders/1AKj_YAviv-to1ZN4Wta0_xiWuBJ5CMbs" target="_blank">Sorting-Visulaizer</a></p>
+            </div>
+            <div class="project-box">
+                <h4>SORTING VISUALIZER</h4>
+                <div class="image-div">
+                    <img src="SortingVisualizer.png" alt="">
+                </div>
+                <p>A web application to visually demonstrate various popular sorting algorithms, including Heap Sort, Bubble Sort, Insertion Sort, and Selection Sort using cylinders. The application provides auditory feedback during sorting operations using the AudioContext, webkitAudioContext, and window.webkitAudioContext APIs. Structured with HTML, styled with CSS, and made responsive with JavaScript. Sorting algorithms are implemented in JavaScript.<br>
+                <b>Github link: </b><a href="https://github.com/JeromeB7/Sorting-Visualizer" target="_blank">Sorting-Visulaizer</a></p>
+            </div>
+            <div class="project-box">
+                <h4>SIMULATOR OF BB84, E91, B92</h4>
+                <div class="image-div">
+                    <img src="QC.jpg" alt="">
+                </div>
+                <p>Utilized IBM Quantum Composer to simulate quantum cryptographic protocols as part of a two-person team. Employed OpenQASM and Qiskit for implementing and analyzing the protocols namely BB84, B92, E91, leveraging IBMQ's quantum computing platform to achieve accurate and insightful results.</p>
+            </div>
+            <div class="project-box">
+                <h4>CALCULATOR</h4>
+                <div class="image-div">
+                    <img src="Calculator.png" alt="">
+                </div>
+                <p>This project features a basic calculator with simple arithmetic functions: addition (+), subtraction (-), multiplication (*), division (/), and clearing (C). It is structured using HTML for the layout, styled with CSS for a clean and intuitive design, and made responsive with JavaScript to ensure functionality across different devices and screen sizes.<br>
+                <b>Github link: </b><a href="https://github.com/JeromeB7/basic-calculator/tree/main" target="_blank">basic-calculator</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <br><br><br>
+        <h2 class="heading">Skills & <span>Technologies</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bxl-java'></i>
+                <h4 class="skill-name">Java</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-c-plus-plus' ></i>
+                <h4 class="skill-name">C++</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-html5' ></i>
+                <h4 class="skill-name">HTML</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-css3' ></i>
+                <h4 class="skill-name">CSS</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-javascript' ></i>
+                <h4 class="skill-name">JavaScript</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-python' ></i>
+                <h4 class="skill-name">Python</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxs-data'></i>
+                <h4 class="skill-name">mySQL</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-react' ></i>
+                <h4 class="skill-name">ReactJS</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-git' ></i>
+                <h4 class="skill-name">Git</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-github' ></i>
+                <h4 class="skill-name">GitHub</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-visual-studio' ></i>
+                <h4 class="skill-name">VSCode</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-windows' ></i>
+                <h4 class="skill-name">OS: Windows & Linux </h4>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="20" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent default form submission
+  
+          emailjs.sendForm('service_gshvgxi', 'template_r469l7d', this)
+            .then(function() {
+              alert('Message sent successfully!');
+            }, function(error) {
+              console.error('Failed to send the message:', error);
+              alert('Failed to send the message. Please try again later.');
+            });
+        });
+    </script>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/JeromeB7" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thankful-lamb/" target="_blank">
+                <i class='bx bxl-linkedin' ></i>
+            </a>
+            <a href="https://x.com/ThankfulLamb" target="_blank">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=3434jerome77@gmail.com&tf=cm" target="_blank">
+                <i class='bx bxl-gmail' ></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
